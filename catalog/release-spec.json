@@ -1,0 +1,84 @@
+{
+  "pack_identifier": "acid-house-basslines",
+  "display_name": "Acid House Basslines Studies",
+  "brief_name": "Acid House Basslines",
+  "creative_intention": "Resonant monophonic bass motifs with terse chromatic replies.",
+  "rhythmic_direction": "Four-on-floor kick with syncopated sixteenth-note low cells.",
+  "palette": "Acid-style bass, clipped chords, concise upper hooks and dry drums.",
+  "guardrail": "Original symbolic studies; genre labels are production directions, not cultural authority.",
+  "generator_version": "release-train-1.0.0",
+  "reproducible_command": "python tools/build_release.py --pack acid-house-basslines",
+  "actual_tempo_bpm": 128,
+  "meter": "4/4",
+  "ppq": 480,
+  "end_tick": 61440,
+  "roles": [
+    {
+      "role": "chord_pulse",
+      "wire_channel": 0,
+      "user_facing_channel": 1,
+      "polyphony_cap": 3
+    },
+    {
+      "role": "sub_bass",
+      "wire_channel": 1,
+      "user_facing_channel": 2,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "principal_motif",
+      "wire_channel": 2,
+      "user_facing_channel": 3,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "vocal_like_synth",
+      "wire_channel": 3,
+      "user_facing_channel": 4,
+      "polyphony_cap": 1
+    },
+    {
+      "role": "counter_texture",
+      "wire_channel": 4,
+      "user_facing_channel": 5,
+      "polyphony_cap": 2
+    },
+    {
+      "role": "drums",
+      "wire_channel": 9,
+      "user_facing_channel": 10,
+      "polyphony_cap": 4
+    }
+  ],
+  "studies": [
+    {
+      "id": "ac01",
+      "title": "Valve Heat",
+      "tonic": "A",
+      "pitch_collection": "pack-local equal-tempered pitch collection"
+    },
+    {
+      "id": "ac02",
+      "title": "Green Signal",
+      "tonic": "C",
+      "pitch_collection": "pack-local equal-tempered pitch collection"
+    },
+    {
+      "id": "ac03",
+      "title": "Filter Run",
+      "tonic": "D#",
+      "pitch_collection": "pack-local equal-tempered pitch collection"
+    },
+    {
+      "id": "ac04",
+      "title": "Afterimage",
+      "tonic": "A#",
+      "pitch_collection": "pack-local equal-tempered pitch collection"
+    }
+  ],
+  "limitations": [
+    "Original symbolic material; no samples.",
+    "Automated validation is technical evidence, not copyright clearance.",
+    "The listening file is a simple-synthesis preview, not a master."
+  ]
+}

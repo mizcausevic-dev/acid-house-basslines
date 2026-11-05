@@ -1,0 +1,5 @@
+study_id,title,collection,tonic,tempo_bpm,meter,ppq,bars,end_tick,combined_path,roles
+ac01,Valve Heat,pack-local equal-tempered pitch collection,A,128,4/4,480,32,61440,midi/ac01-valve-heat/ac01-valve-heat-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+ac02,Green Signal,pack-local equal-tempered pitch collection,C,128,4/4,480,32,61440,midi/ac02-green-signal/ac02-green-signal-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+ac03,Filter Run,pack-local equal-tempered pitch collection,D#,128,4/4,480,32,61440,midi/ac03-filter-run/ac03-filter-run-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+ac04,Afterimage,pack-local equal-tempered pitch collection,A#,128,4/4,480,32,61440,midi/ac04-afterimage/ac04-afterimage-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
