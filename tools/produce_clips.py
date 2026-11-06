@@ -76,6 +76,18 @@ def main():
                             if kind == "sub_bass" and study_index and local // release.BAR_TICKS == study_index and local % release.BAR_TICKS == 0:
                                 continue
                             notes.append((local, min(event["duration"], END-local), event["pitch"], event["velocity"]))
+                if args.pack == "acid-house-basslines" and kind == "sub_bass":
+                    # Four distinct four-bar patterns use short mono bass notes,
+                    # rests, octave accents and occasional chromatic approaches.
+                    pulse_maps = ((0, 360, 720, 1080, 1560), (120, 480, 840, 1200, 1680), (0, 480, 720, 1320, 1680), (240, 600, 960, 1260, 1620))
+                    notes = []
+                    for bar in range(4):
+                        root_pitch = study["bass"][(bar + variation) % 4]
+                        for step, offset in enumerate(pulse_maps[(bar + variation) % 4]):
+                            pitch = root_pitch + (12 if (step + study_index) % 5 == 2 else 1 if step == 3 else 0)
+                            duration = (90, 120, 180)[(step + bar + study_index) % 3]
+                            velocity = (72, 88, 104)[(step + variation) % 3]
+                            notes.append((bar * release.BAR_TICKS + offset, duration, pitch, velocity))
                 if not notes:
                     raise ValueError(f"Empty clip: {study['id']} {kind} {variation}")
                 label = "chord-progression" if kind == "chords" else ("bass-hook" if kind == "sub_bass" else "melody")
