@@ -198,8 +198,8 @@
     },
     {
       "path": "downloads/acid-house-basslines-midi.zip",
-      "bytes": 32467,
-      "sha256": "111d7de42e7276cfec81a5d35a7328c318cbc3f860b2c47b6aa6816ff3a4995c"
+      "bytes": 33454,
+      "sha256": "6c384cacd942dc1b6dee8bfd9698b02a9dff3c849ed08b0778a3e4c7bdb3a92d"
     },
     {
       "path": "film/motion-note-roll.png",
@@ -233,8 +233,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 10541,
-      "sha256": "fc84c0fdce4f7d9c60c75f61027703aa586476b549367b2963935aa27d6a077d"
+      "bytes": 10731,
+      "sha256": "89fb6738d2437562f7d80197061c4ace900ff84fe05c25e2d7fdfd3ef5f61caa"
     },
     {
       "path": "midi/ac01-valve-heat/ac01-valve-heat-combined.mid",
@@ -377,6 +377,11 @@
       "sha256": "a4bba427f382592c77575866fa3b652b75316aa34bdb9c8f117777cdb44b21af"
     },
     {
+      "path": "MIDI-BUYER-LICENSE-v1.0.txt",
+      "bytes": 1652,
+      "sha256": "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9"
+    },
+    {
       "path": "preview/acid-house-basslines-simple-synth-preview.mp3",
       "bytes": 1453915,
       "sha256": "96a2677fbbdd9ff559abff62b64d449bd1b03126ba73c24f96a26207cbd89494"
@@ -388,8 +393,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4089,
-      "sha256": "686dc7ed7642682c02f3e9282ca856b36ba30819badc5aa7ec198a7d680e9b7c"
+      "bytes": 4204,
+      "sha256": "de454c4e4cd78caf6370f0103efb5c4ef610397a851546d81ff311bf46ff21da"
+    },
+    {
+      "path": "REVISION.md",
+      "bytes": 800,
+      "sha256": "bd6bd634a007e7e3a2e8bb12a92d4562325618d86d5c33102135ad3ec0a45ad2"
     },
     {
       "path": "social/instagram/caption.txt",
@@ -445,11 +455,6 @@
       "path": "tools/validate_release.py",
       "bytes": 13763,
       "sha256": "c590a3c9e44249ddc1a2d14a048dea0f3e1ef0a232d3b86ea96a0f4eafeff6a5"
-    },
-    {
-      "path": "REVISION.md",
-      "bytes": 800,
-      "sha256": "bd6bd634a007e7e3a2e8bb12a92d4562325618d86d5c33102135ad3ec0a45ad2"
     }
   ]
 }
